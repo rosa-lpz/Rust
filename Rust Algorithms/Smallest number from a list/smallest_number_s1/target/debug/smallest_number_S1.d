@@ -1,0 +1,1 @@
+/home/rlz-98/Documents/GitHub/Rust/Rust\ Algorithms/Smallest\ number\ from\ a\ list/smallest_number_s1/target/debug/smallest_number_S1: /home/rlz-98/Documents/GitHub/Rust/Rust\ Algorithms/Smallest\ number\ from\ a\ list/smallest_number_s1/src/main.rs

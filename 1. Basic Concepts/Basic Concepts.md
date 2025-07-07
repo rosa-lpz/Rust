@@ -22,9 +22,79 @@ It’s a great alternative to C/C++ for safe, fast code.
 fn main() {
     println!("Hello, world!");
 }
+
+fn main(){
+    println!("Hello, world!");
+    let s: String::from("value");
+}
 ```
 
+## Execute program
 
+To create a new Rust project in the terminal, follow these steps:
+
+### 1. **Install Rust (if you haven't already)**
+
+If you don’t have Rust installed:
+
+```bash
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+```
+
+Then restart your terminal or run:
+
+```bash
+source $HOME/.cargo/env
+```
+
+------
+
+### 2. **Create a New Project**
+
+Use `cargo`, Rust’s package manager and build tool:
+
+```bash
+cargo new my_project
+```
+
+This will create a new directory called `my_project` with the following structure:
+
+```
+my_project/
+├── Cargo.toml
+└── src/
+    └── main.rs
+```
+
+------
+
+### 3. **Navigate to the Project Directory**
+
+```bash
+cd my_project
+```
+
+------
+
+### 4. **Build and Run the Project**
+
+To build:
+
+```bash
+cargo build
+```
+
+To run:
+
+```bash
+cargo run
+```
+
+This will compile and execute the default `Hello, world!` program.
+
+------
+
+Let me know if you want to make it a **library project** instead, or add dependencies like `serde`, etc.
 
 
 
@@ -215,3 +285,11 @@ fn print_length(s: &String) {
 ```
 
 ------
+
+
+
+
+
+# References
+
+* Let's Get Rusty - Ultimate VS Code setup for Rust development (2025): https://youtu.be/ZhedgZtd8gw

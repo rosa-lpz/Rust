@@ -1,0 +1,1 @@
+/home/rlz-98/Documents/GitHub/Rust/Rust\ Algorithms/Smallest\ positive\ number\ from\ a\ list\ /smallest_pos_num_s1/target/debug/smallest_number_S1: /home/rlz-98/Documents/GitHub/Rust/Rust\ Algorithms/Smallest\ positive\ number\ from\ a\ list\ /smallest_pos_num_s1/src/main.rs
